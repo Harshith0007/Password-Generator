@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script defer src="index.js"></script>
+        <meta name="viewport" content="width=devide-wdith, initial-scale=1"
+    </head>
+    <body>
+        
+    <div id="flex1">
+        <div id="internalbackground">
+            <div id = "upline">
+                <h1>Generate a</h1>
+            </div>
+            <div id = "downline">
+                <h1>random password</h1>
+            </div>
+            <div id = "messagetouser">
+                <h4>Never use an insecure password again.</h4>
+            </div>
+            <div id = "generatepassword">
+                <button class="btn" onclick="generator()">Generate Password</button>
+            </div>
+            <div id = "passwordlength">
+                <label id="passwordlength1">Password Length:</label>
+                <input id="passwordlengthentry" type="number" min="5" max="15" value="15">
+            <div>
+                <hr style="height:1px;border-width:0; color:#2F3E53; background-color:#2F3E53; margin-left: 50px; margin-right: 50px; margin-top: 50px;">
+            </div>
+            <div id= "flexmain">
+                <div id="flexer1">
+                    <p id="password1"></p>
+                    <button onclick="copyPassword1()" id = "copypassword1"></button>
+                </div>
+                <div id="flexer2">
+                    <p id="password2"></p>
+                    <button onclick="copyPassword2()" id = "copypassword2"></button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div >
+    </body>
+</html>

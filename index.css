@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#flex1{
+    display: flex;
+    flex-direction: column;
+}
+
+#internalbackground {
+    background-color: #1F2937;
+    background-position: center;
+    height: 550px;
+    width: 550px;
+    margin:auto;
+    
+}
+
+#upline {
+    color: #FAF9F6;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: -100px;
+}
+
+#downline {
+    color: #4ADF86;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#messagetouser {
+    color: #D5D4D8;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+.btn {
+    width: 155px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding: 9px, 17px, 9px, 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #10B981;
+    color: white;
+    font-size: 14px;
+}
+.btn {cursor: pointer;}
+#copypassword1 {cursor: pointer;}
+#copypassword2 {cursor: pointer;}
+
+#passwordlengthentry {
+    width: 40px;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+#password1{
+    margin-top: 30px;
+    width: 180px;
+    height: 30px;
+    background-color: #273549;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    color: #55F991;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+#password2{
+    margin-top: 30px;
+    width: 180px;
+    height: 30px;
+    background-color: #273549;
+    margin-left: 25px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    color: #55F991;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+#copypassword1{
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-image: url("copy.jpg");
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+
+#copypassword2{
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-image: url("copy.jpg");
+    font-size: 14px;
+    margin-left: 10px;
+     margin-top: 40px;
+}
+
+#passwordlength1 {
+    display: inline-block;
+    margin-left: 50px;
+    color: #FAF9F6;
+}
+
+.switch {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 34px;
+  margin-left: 10px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 44px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#symbols {
+    display: inline-block;
+    margin-left: 50px;
+    color: #FAF9F6;
+    margin-top: 5px;  
+}
+
+#symbolflex {
+    display: flex;
+}
+
+#numberflex {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#numbers {
+    display: inline-block;
+    margin-left: 200px;
+    color: #FAF9F6;
+    margin-top: -28px;
+}
+
+
+.switch2 {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 34px;
+  margin-left: 10px;
+  margin-top: -35px;
+}
+
+/* Hide default HTML checkbox */
+.switch2 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#flexmain {
+    display: flex;
+}
+
+#flexer1 {
+    display: flex;
+}
+
+#flexer2 {
+    display: flex;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+    color: none;
+    background: none;
+}
